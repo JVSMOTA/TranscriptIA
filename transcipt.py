@@ -1,12 +1,12 @@
 import assemblyai as aai
 import os
 
-aai.settings.api_key = "a601b13355db45d98295e94cf03367f0"
+aai.settings.api_key = "SUA_CHAVE_AQUI"
 
 transcriber = aai.Transcriber()
 
 # You can use a local filepath:
-audio_file = "./localfile-test-EN.mp3"
+audio_file = "./exemplo.mp3"
 
 # Or use a publicly-accessible URL:
 # audio_file = (
